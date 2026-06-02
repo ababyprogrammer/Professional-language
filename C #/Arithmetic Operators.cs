@@ -6,7 +6,9 @@ namespace Operator
 	{
 		public static void Main(string[] args)
 		{
-
+			double firstNumber = 14.40, secondNumber = 4.60, result;
+			int num1 = 26, num2 = 4, rem;
+			
 			// Addition operator
 			result = firstNumber + secondNumber;
 			Console.WriteLine("{0} + {1} = {2}", firstNumber, secondNumber, result);
